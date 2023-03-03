@@ -74,7 +74,7 @@ Make sure you have Python installed on your machine.
 # Use this on Windows
 py -m venv env
 # Use this on Linux and Mac
-python3 -m venv shell
+python3 -m venv env
 ```
 2. Active venv
 
@@ -92,6 +92,9 @@ pip install -r requirements.txt
 -Apply migrations and create your superuser (follow the prompts)
 
 ```bash
+# create migrations
+python manage.py makemigrations
+
 # apply migrations and create your database
 python manage.py migrate
 
