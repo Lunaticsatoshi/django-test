@@ -102,13 +102,18 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
+4. Create Pricing config
+Open <http://127.0.0.1:8000/admin> to open the admin panel in the browser. 
 
-4. Run the development server
+
+5. Run the development server
 
 ```bash
 # run django development server
 python manage.py runserver
 ```
+
+Visit <http://127.0.0.1:8000/> to get the api routes
 
 ## 🔐 License
 
